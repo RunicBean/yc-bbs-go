@@ -1,0 +1,43 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build --dotenv .env.production",
+    "build:docker": "nuxt build --dotenv .env.docker",
+    "dev": "nuxt dev --dotenv .env.local",
+    "generate": "nuxt generate --dotenv .env.production",
+    "preview": "nuxt preview --dotenv .env.production",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "4.5.1",
+    "@element-plus/nuxt": "1.1.1",
+    "@nuxtjs/color-mode": "3.5.2",
+    "@nuxtjs/eslint-module": "4.1.0",
+    "@vueuse/core": "12.8.1",
+    "@vueuse/nuxt": "12.8.1",
+    "bulma": "1.0.3",
+    "element-plus": "2.9.5",
+    "eslint": "9.21.0",
+    "sass": "1.86.3",
+    "typescript": "5.8.2"
+  },
+  "dependencies": {
+    "@asika32764/vue-animate": "^3.0.2",
+    "@pinia/nuxt": "0.10.1",
+    "go-captcha-vue": "^2",
+    "lodash.throttle": "^4.1.1",
+    "md-editor-v3": "5.3.2",
+    "nuxt": "^3.16.2",
+    "nuxt-lazy-load": "3.0.4",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild",
+      "vue-demi"
+    ]
+  }
+}
