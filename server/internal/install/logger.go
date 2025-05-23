@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/mlogclub/simple/common/strs"
+	"github.com/RunicBean/mlogclub-simple/common/strs"
 	"github.com/pkg/errors"
 
 	"gopkg.in/natefinch/lumberjack.v2"

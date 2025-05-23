@@ -4,8 +4,8 @@ import (
 	"bbs-go/internal/models"
 	"log/slog"
 
-	"github.com/mlogclub/simple/common/jsons"
-	"github.com/mlogclub/simple/common/strs"
+	"github.com/RunicBean/mlogclub-simple/common/jsons"
+	"github.com/RunicBean/mlogclub-simple/common/strs"
 )
 
 func BuildImageList(imageListStr string) (imageList []models.ImageInfo) {

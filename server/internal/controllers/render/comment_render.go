@@ -8,8 +8,8 @@ import (
 	"html"
 	"strconv"
 
-	"github.com/mlogclub/simple/common/arrays"
-	"github.com/mlogclub/simple/web"
+	"github.com/RunicBean/mlogclub-simple/common/arrays"
+	"github.com/RunicBean/mlogclub-simple/web"
 )
 
 func BuildComment(comment *models.Comment) *models.CommentResponse {

@@ -5,9 +5,9 @@ import (
 	"log/slog"
 	"time"
 
+	"github.com/RunicBean/mlogclub-simple/common/jsons"
+	"github.com/RunicBean/mlogclub-simple/sqls"
 	"github.com/goburrow/cache"
-	"github.com/mlogclub/simple/common/jsons"
-	"github.com/mlogclub/simple/sqls"
 	"github.com/spf13/cast"
 
 	"bbs-go/internal/models"

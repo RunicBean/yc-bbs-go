@@ -11,10 +11,10 @@ import (
 	"log/slog"
 	"strings"
 
-	"github.com/mlogclub/simple/common/dates"
-	"github.com/mlogclub/simple/common/jsons"
-	"github.com/mlogclub/simple/common/strs"
-	"github.com/mlogclub/simple/sqls"
+	"github.com/RunicBean/mlogclub-simple/common/dates"
+	"github.com/RunicBean/mlogclub-simple/common/jsons"
+	"github.com/RunicBean/mlogclub-simple/common/strs"
+	"github.com/RunicBean/mlogclub-simple/sqls"
 	"gorm.io/gorm"
 )
 

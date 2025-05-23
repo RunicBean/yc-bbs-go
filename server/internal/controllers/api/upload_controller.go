@@ -7,8 +7,8 @@ import (
 	"log/slog"
 	"strconv"
 
+	"github.com/RunicBean/mlogclub-simple/web"
 	"github.com/kataras/iris/v12"
-	"github.com/mlogclub/simple/web"
 
 	"bbs-go/internal/services"
 )

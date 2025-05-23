@@ -5,9 +5,9 @@ import (
 	"bytes"
 	"encoding/base64"
 
+	"github.com/RunicBean/mlogclub-simple/web"
 	"github.com/dchest/captcha"
 	"github.com/kataras/iris/v12"
-	"github.com/mlogclub/simple/web"
 )
 
 type CaptchaController struct {

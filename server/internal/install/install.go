@@ -16,18 +16,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mlogclub/simple/common/dates"
-	"github.com/mlogclub/simple/common/passwd"
-	"github.com/mlogclub/simple/sqls"
+	"github.com/RunicBean/mlogclub-simple/common/dates"
+	"github.com/RunicBean/mlogclub-simple/common/passwd"
+	"github.com/RunicBean/mlogclub-simple/sqls"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
 
 	"github.com/golang-migrate/migrate/v4"
-	m "github.com/golang-migrate/migrate/v4/database/mysql"
+	m "github.com/golang-migrate/migrate/v4/database/postgres"
 	_ "github.com/golang-migrate/migrate/v4/source/file"
 
-	"gorm.io/driver/mysql"
 	"gorm.io/driver/postgres"
 )
 
@@ -139,7 +138,7 @@ func InitConfig() {
 
 func InitDB() error {
 	conf := config.Instance.DB
-	db, err := gorm.Open(mysql.Open(conf.Url), &gorm.Config{
+	db, err := gorm.Open(postgres.Open(conf.Url), &gorm.Config{
 		NamingStrategy: schema.NamingStrategy{
 			TablePrefix:   "t_",
 			SingularTable: true,
@@ -189,7 +188,7 @@ func runMigrations(db *gorm.DB) error {
 
 	m, err := migrate.NewWithDatabaseInstance(
 		"file://migrations",
-		"mysql",
+		"postgres",
 		driver,
 	)
 	if err != nil {

@@ -7,8 +7,8 @@ import (
 	"bbs-go/internal/services"
 	"html"
 
-	"github.com/mlogclub/simple/common/arrays"
-	"github.com/mlogclub/simple/common/strs"
+	"github.com/RunicBean/mlogclub-simple/common/arrays"
+	"github.com/RunicBean/mlogclub-simple/common/strs"
 )
 
 func BuildTopic(topic *models.Topic, currentUser *models.User) *models.TopicResponse {

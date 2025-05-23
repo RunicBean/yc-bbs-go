@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mlogclub/simple/common/arrays"
-	"github.com/mlogclub/simple/common/dates"
-	"github.com/mlogclub/simple/common/strs"
+	"github.com/RunicBean/mlogclub-simple/common/arrays"
+	"github.com/RunicBean/mlogclub-simple/common/dates"
+	"github.com/RunicBean/mlogclub-simple/common/strs"
 )
 
 // IsForbidden 是否禁言

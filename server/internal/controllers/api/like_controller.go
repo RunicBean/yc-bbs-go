@@ -5,10 +5,10 @@ import (
 	"bbs-go/internal/pkg/errs"
 	"bbs-go/internal/services"
 
+	"github.com/RunicBean/mlogclub-simple/common/strs"
+	"github.com/RunicBean/mlogclub-simple/web"
+	"github.com/RunicBean/mlogclub-simple/web/params"
 	"github.com/kataras/iris/v12"
-	"github.com/mlogclub/simple/common/strs"
-	"github.com/mlogclub/simple/web"
-	"github.com/mlogclub/simple/web/params"
 )
 
 type LikeController struct {

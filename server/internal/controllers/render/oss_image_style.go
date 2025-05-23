@@ -5,7 +5,7 @@ import (
 	"bbs-go/internal/pkg/uploader"
 	"strings"
 
-	"github.com/mlogclub/simple/common/strs"
+	"github.com/RunicBean/mlogclub-simple/common/strs"
 )
 
 func HandleOssImageStyleAvatar(url string) string {

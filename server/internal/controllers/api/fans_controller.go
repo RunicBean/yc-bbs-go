@@ -7,10 +7,10 @@ import (
 	"bbs-go/internal/services"
 	"strconv"
 
+	"github.com/RunicBean/mlogclub-simple/web"
+	"github.com/RunicBean/mlogclub-simple/web/params"
 	"github.com/emirpasic/gods/sets/hashset"
 	"github.com/kataras/iris/v12"
-	"github.com/mlogclub/simple/web"
-	"github.com/mlogclub/simple/web/params"
 )
 
 type FansController struct {

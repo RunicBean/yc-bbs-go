@@ -3,10 +3,10 @@ package api
 import (
 	"bbs-go/internal/controllers/render"
 
+	"github.com/RunicBean/mlogclub-simple/web"
+	"github.com/RunicBean/mlogclub-simple/web/params"
 	"github.com/dchest/captcha"
 	"github.com/kataras/iris/v12"
-	"github.com/mlogclub/simple/web"
-	"github.com/mlogclub/simple/web/params"
 
 	captcha2 "bbs-go/internal/pkg/captcha"
 	"bbs-go/internal/pkg/errs"

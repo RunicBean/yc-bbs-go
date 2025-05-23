@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/88250/lute"
-	"github.com/mlogclub/simple/common/strs"
+	"github.com/RunicBean/mlogclub-simple/common/strs"
 )
 
 var (

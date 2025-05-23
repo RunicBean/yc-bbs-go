@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
+	"github.com/RunicBean/mlogclub-simple/sqls"
 	"github.com/goburrow/cache"
-	"github.com/mlogclub/simple/sqls"
 
 	"bbs-go/internal/models"
 	"bbs-go/internal/repositories"

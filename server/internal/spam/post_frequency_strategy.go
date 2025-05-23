@@ -6,8 +6,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/mlogclub/simple/common/dates"
-	"github.com/mlogclub/simple/sqls"
+	"github.com/RunicBean/mlogclub-simple/common/dates"
+	"github.com/RunicBean/mlogclub-simple/sqls"
 )
 
 // PostFrequencyStrategy 发表频率限制

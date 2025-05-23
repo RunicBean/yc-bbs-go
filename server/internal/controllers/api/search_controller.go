@@ -7,9 +7,9 @@ import (
 	"bbs-go/internal/pkg/search"
 	"bbs-go/internal/services"
 
+	"github.com/RunicBean/mlogclub-simple/web"
+	"github.com/RunicBean/mlogclub-simple/web/params"
 	"github.com/kataras/iris/v12"
-	"github.com/mlogclub/simple/web"
-	"github.com/mlogclub/simple/web/params"
 	"github.com/spf13/cast"
 )
 

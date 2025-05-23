@@ -7,9 +7,9 @@ import (
 	"bbs-go/internal/models"
 	"bbs-go/internal/repositories"
 
+	"github.com/RunicBean/mlogclub-simple/common/dates"
+	"github.com/RunicBean/mlogclub-simple/sqls"
 	"github.com/goburrow/cache"
-	"github.com/mlogclub/simple/common/dates"
-	"github.com/mlogclub/simple/sqls"
 )
 
 type userCache struct {

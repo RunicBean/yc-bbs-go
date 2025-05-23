@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mlogclub/simple/common/dates"
-	"github.com/mlogclub/simple/common/strs"
-	"github.com/mlogclub/simple/sqls"
+	"github.com/RunicBean/mlogclub-simple/common/dates"
+	"github.com/RunicBean/mlogclub-simple/common/strs"
+	"github.com/RunicBean/mlogclub-simple/sqls"
 	"github.com/spf13/cast"
 )
 

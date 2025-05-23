@@ -7,7 +7,7 @@ import (
 	"bbs-go/internal/pkg/text"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/mlogclub/simple/common/strs"
+	"github.com/RunicBean/mlogclub-simple/common/strs"
 )
 
 func GetSummary(htmlStr string, summaryLen int) string {

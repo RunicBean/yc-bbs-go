@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mlogclub/simple/common/jsons"
-	"github.com/mlogclub/simple/sqls"
+	"github.com/RunicBean/mlogclub-simple/common/jsons"
+	"github.com/RunicBean/mlogclub-simple/sqls"
 )
 
 func TestEvent(t *testing.T) {

@@ -3,8 +3,8 @@ package repositories
 import (
 	"bbs-go/internal/models"
 
-	"github.com/mlogclub/simple/sqls"
-	"github.com/mlogclub/simple/web/params"
+	"github.com/RunicBean/mlogclub-simple/sqls"
+	"github.com/RunicBean/mlogclub-simple/web/params"
 	"gorm.io/gorm"
 )
 
@@ -62,12 +62,12 @@ func (r *apiRepository) FindPageByCnd(db *gorm.DB, cnd *sqls.Cnd) (list []models
 	return
 }
 
-func (r *apiRepository) FindBySql(db *gorm.DB, sqlStr string, paramArr... interface{}) (list []models.Api) {
+func (r *apiRepository) FindBySql(db *gorm.DB, sqlStr string, paramArr ...interface{}) (list []models.Api) {
 	db.Raw(sqlStr, paramArr...).Scan(&list)
 	return
 }
 
-func (r *apiRepository) CountBySql(db *gorm.DB, sqlStr string, paramArr... interface{}) (count int64) {
+func (r *apiRepository) CountBySql(db *gorm.DB, sqlStr string, paramArr ...interface{}) (count int64) {
 	db.Raw(sqlStr, paramArr...).Count(&count)
 	return
 }
@@ -99,4 +99,3 @@ func (r *apiRepository) UpdateColumn(db *gorm.DB, id int64, name string, value i
 func (r *apiRepository) Delete(db *gorm.DB, id int64) {
 	db.Delete(&models.Api{}, "id = ?", id)
 }
-

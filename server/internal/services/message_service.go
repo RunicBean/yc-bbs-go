@@ -11,10 +11,10 @@ import (
 	"bbs-go/internal/repositories"
 	"log/slog"
 
-	"github.com/mlogclub/simple/common/dates"
-	"github.com/mlogclub/simple/common/jsons"
-	"github.com/mlogclub/simple/sqls"
-	"github.com/mlogclub/simple/web/params"
+	"github.com/RunicBean/mlogclub-simple/common/dates"
+	"github.com/RunicBean/mlogclub-simple/common/jsons"
+	"github.com/RunicBean/mlogclub-simple/sqls"
+	"github.com/RunicBean/mlogclub-simple/web/params"
 )
 
 var MessageService = newMessageService()

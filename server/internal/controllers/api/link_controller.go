@@ -3,9 +3,9 @@ package api
 import (
 	"bbs-go/internal/models/constants"
 
+	"github.com/RunicBean/mlogclub-simple/sqls"
+	"github.com/RunicBean/mlogclub-simple/web"
 	"github.com/kataras/iris/v12"
-	"github.com/mlogclub/simple/sqls"
-	"github.com/mlogclub/simple/web"
 
 	"bbs-go/internal/models"
 	"bbs-go/internal/services"

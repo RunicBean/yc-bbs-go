@@ -4,8 +4,8 @@ import (
 	"bbs-go/internal/install"
 	"bbs-go/internal/pkg/config"
 
+	"github.com/RunicBean/mlogclub-simple/web"
 	"github.com/kataras/iris/v12"
-	"github.com/mlogclub/simple/web"
 )
 
 type InstallController struct {

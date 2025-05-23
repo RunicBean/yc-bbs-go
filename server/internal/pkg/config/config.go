@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mlogclub/simple/common/strs"
-	"github.com/mlogclub/simple/sqls"
+	"github.com/RunicBean/mlogclub-simple/common/strs"
+	"github.com/RunicBean/mlogclub-simple/sqls"
 	"github.com/spf13/viper"
 	"gopkg.in/yaml.v2"
 )

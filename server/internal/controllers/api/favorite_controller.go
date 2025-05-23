@@ -3,9 +3,9 @@ package api
 import (
 	"errors"
 
+	"github.com/RunicBean/mlogclub-simple/web"
+	"github.com/RunicBean/mlogclub-simple/web/params"
 	"github.com/kataras/iris/v12"
-	"github.com/mlogclub/simple/web"
-	"github.com/mlogclub/simple/web/params"
 
 	"bbs-go/internal/models/constants"
 	"bbs-go/internal/pkg/errs"

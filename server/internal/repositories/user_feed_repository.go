@@ -3,8 +3,8 @@ package repositories
 import (
 	"bbs-go/internal/models"
 
-	"github.com/mlogclub/simple/sqls"
-	"github.com/mlogclub/simple/web/params"
+	"github.com/RunicBean/mlogclub-simple/sqls"
+	"github.com/RunicBean/mlogclub-simple/web/params"
 	"gorm.io/gorm"
 )
 

@@ -1,7 +1,7 @@
 package errs
 
 import (
-	"github.com/mlogclub/simple/web"
+	"github.com/RunicBean/mlogclub-simple/web"
 )
 
 var (

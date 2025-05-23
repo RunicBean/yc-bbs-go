@@ -6,9 +6,9 @@ import (
 	"bbs-go/internal/services"
 	"time"
 
+	"github.com/RunicBean/mlogclub-simple/common/dates"
+	"github.com/RunicBean/mlogclub-simple/web"
 	"github.com/kataras/iris/v12"
-	"github.com/mlogclub/simple/common/dates"
-	"github.com/mlogclub/simple/web"
 )
 
 type CheckinController struct {

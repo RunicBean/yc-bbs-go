@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/RunicBean/mlogclub-simple/common/strs"
+	"github.com/RunicBean/mlogclub-simple/sqls"
+	"github.com/RunicBean/mlogclub-simple/web"
+	"github.com/RunicBean/mlogclub-simple/web/params"
 	"github.com/kataras/iris/v12"
-	"github.com/mlogclub/simple/common/strs"
-	"github.com/mlogclub/simple/sqls"
-	"github.com/mlogclub/simple/web"
-	"github.com/mlogclub/simple/web/params"
 	"github.com/spf13/cast"
 
 	"bbs-go/internal/cache"

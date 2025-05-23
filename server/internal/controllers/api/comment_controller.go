@@ -6,10 +6,10 @@ import (
 	"bbs-go/internal/spam"
 	"strconv"
 
+	"github.com/RunicBean/mlogclub-simple/sqls"
+	"github.com/RunicBean/mlogclub-simple/web"
+	"github.com/RunicBean/mlogclub-simple/web/params"
 	"github.com/kataras/iris/v12"
-	"github.com/mlogclub/simple/sqls"
-	"github.com/mlogclub/simple/web"
-	"github.com/mlogclub/simple/web/params"
 	"github.com/panjf2000/ants/v2"
 	"github.com/sirupsen/logrus"
 

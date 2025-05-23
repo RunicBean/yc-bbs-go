@@ -6,8 +6,8 @@ import (
 	"log/slog"
 	"time"
 
+	"github.com/RunicBean/mlogclub-simple/sqls"
 	"github.com/goburrow/cache"
-	"github.com/mlogclub/simple/sqls"
 )
 
 type forbiddenWordCache struct {

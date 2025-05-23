@@ -6,8 +6,8 @@ import (
 	"bbs-go/internal/pkg/urls"
 	"bbs-go/internal/services"
 
+	"github.com/RunicBean/mlogclub-simple/web"
 	"github.com/kataras/iris/v12"
-	"github.com/mlogclub/simple/web"
 )
 
 var (

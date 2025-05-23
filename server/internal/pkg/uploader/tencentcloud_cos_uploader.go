@@ -10,7 +10,7 @@ import (
 
 	"github.com/tencentyun/cos-go-sdk-v5"
 
-	"github.com/mlogclub/simple/common/strs"
+	"github.com/RunicBean/mlogclub-simple/common/strs"
 
 	"bbs-go/internal/pkg/config"
 )

@@ -1,8 +1,8 @@
 package repositories
 
 import (
-	"github.com/mlogclub/simple/sqls"
-	"github.com/mlogclub/simple/web/params"
+	"github.com/RunicBean/mlogclub-simple/sqls"
+	"github.com/RunicBean/mlogclub-simple/web/params"
 	"gorm.io/gorm"
 
 	"bbs-go/internal/models"
@@ -90,5 +90,5 @@ func (r *sysConfigRepository) GetByKey(db *gorm.DB, key string) *models.SysConfi
 	if len(key) == 0 {
 		return nil
 	}
-	return r.Take(db, "`key` = ?", key)
+	return r.Take(db, "key = ?", key)
 }

@@ -4,8 +4,8 @@ import (
 	"bbs-go/internal/models"
 	"bbs-go/internal/repositories"
 
-	"github.com/mlogclub/simple/sqls"
-	"github.com/mlogclub/simple/web/params"
+	"github.com/RunicBean/mlogclub-simple/sqls"
+	"github.com/RunicBean/mlogclub-simple/web/params"
 )
 
 var DictTypeService = newDictTypeService()

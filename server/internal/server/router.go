@@ -9,10 +9,10 @@ import (
 	"os"
 	"strings"
 
+	"github.com/RunicBean/mlogclub-simple/web"
 	"github.com/iris-contrib/middleware/cors"
 	"github.com/kataras/iris/v12"
 	"github.com/kataras/iris/v12/mvc"
-	"github.com/mlogclub/simple/web"
 	"github.com/spf13/cast"
 
 	"github.com/kataras/iris/v12/middleware/logger"

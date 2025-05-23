@@ -4,7 +4,7 @@ import (
 	"bbs-go/internal/models/constants"
 	"time"
 
-	"github.com/mlogclub/simple/web"
+	"github.com/RunicBean/mlogclub-simple/web"
 )
 
 // UserInfo 用户简单信息

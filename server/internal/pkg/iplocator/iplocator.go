@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/RunicBean/mlogclub-simple/common/dates"
+	"github.com/RunicBean/mlogclub-simple/common/strs"
 	"github.com/lionsoul2014/ip2region/binding/golang/xdb"
-	"github.com/mlogclub/simple/common/dates"
-	"github.com/mlogclub/simple/common/strs"
 )
 
 var (

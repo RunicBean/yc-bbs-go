@@ -4,8 +4,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mlogclub/simple/common/strs"
-	"github.com/mlogclub/simple/common/urls"
+	"github.com/RunicBean/mlogclub-simple/common/strs"
+	"github.com/RunicBean/mlogclub-simple/common/urls"
 
 	"bbs-go/internal/pkg/config"
 )

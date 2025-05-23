@@ -3,7 +3,7 @@ package text
 import (
 	"strings"
 
-	"github.com/mlogclub/simple/common/strs"
+	"github.com/RunicBean/mlogclub-simple/common/strs"
 )
 
 // GetSummary 获取summary
