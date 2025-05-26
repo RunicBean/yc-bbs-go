@@ -32,7 +32,6 @@ logs/*.log
 web/*
 tmp/*
 logs/*
-admin
 site
 
 internal/web*
